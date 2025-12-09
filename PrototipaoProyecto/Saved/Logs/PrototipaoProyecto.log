@@ -2852,3 +2852,1182 @@ LogInit: Object subsystem initialized
 [2025.12.09-17.46.51:606][688]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.12.09-17.46.51:606][688]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
 [2025.12.09-17.46.51:630][688]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.09-17.48.18:761][512]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Coin.BP_Coin
+[2025.12.09-17.48.18:761][512]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.12.09-17.49.01:956][984]LogBlueprint: Error: [AssetLog] C:\Users\usuario\Documents\GitHub\PrototipaoProyecto\PrototipaoProyecto\Content\BP\BP_Coin.uasset: [Compiler] This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2025.12.09-17.49.01:959][984]LogStreaming: Display: FlushAsyncLoading(599): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.09-17.49.02:014][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.12.09-17.49.11:456][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.12.09-17.49.14:126][692]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-17.49.14:130][692]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-17.49.14:130][692]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-17.49.14:131][692]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 346 us (total: 7.765 ms)
+[2025.12.09-17.49.14:131][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-17.49.14:158][692]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.49.14:161][692]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-17.49.14:161][692]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 415 us (total: 5.498 ms)
+[2025.12.09-17.49.14:161][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002473s)
+[2025.12.09-17.49.14:161][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002510s)
+[2025.12.09-17.49.14:179][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.12.09-17.49.14:181][692]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-17.49.14:183][692]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-17.49.14:183][692]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-17.49.14:183][692]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-17.49.14:183][692]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-17.49.14:183][692]LogWorldPartition: Display: WorldPartition initialize took 763 us (total: 65.842 ms)
+[2025.12.09-17.49.14:183][692]LogPlayLevel: PIE: World Init took: (0.002399s)
+[2025.12.09-17.49.14:184][692]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.12.09-17.49.14:184][692]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-17.49.14:184][692]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-17.49.14:184][692]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-17.49.14:184][692]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-17.49.14:184][692]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-17.49.14:184][692]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-17.49.14:184][692]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-17.49.14:184][692]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-17.49.14:184][692]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-17.49.14:184][692]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-17.49.14:184][692]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-17.49.14:186][692]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-17.49.14:298][692]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-17.49.14:298][692]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-17.49.14:298][692]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-17.49.14:298][692]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-17.49.14:298][692]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.12.09-17.49.14:298][692]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.12.09-17.49.14:301][692]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.12.09-17.49.14:301][692]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.12.09-17.49.14:301][692]LogInit: FAudioDevice initialized with ID 18.
+[2025.12.09-17.49.14:301][692]LogAudio: Display: Audio Device (ID: 18) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-17.49.14:301][692]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.12.09-17.49.14:305][692]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-17.49.14:306][692]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-18.49.14
+[2025.12.09-17.49.14:306][692]LogWorld: Bringing up level for play took: 0.000805
+[2025.12.09-17.49.14:307][692]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.12.09-17.49.14:311][692]PIE: Server logged in
+[2025.12.09-17.49.14:314][692]PIE: Play in editor total start time 0,183 seconds.
+[2025.12.09-17.49.14:366][693]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-17.49.16:798][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.49.16:798][836]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.49.16:798][836]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-17.49.16:799][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.49.16:799][836]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-17.49.16:803][836]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-17.49.16:805][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.49.16:822][836]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.09-17.49.16:822][836]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.12.09-17.49.16:823][836]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=4
+[2025.12.09-17.49.16:825][836]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
+[2025.12.09-17.49.16:830][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.49.16:832][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.12.09-17.49.16:897][838]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.12.09-17.51.10:059][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.12.09-17.51.13:584][321]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-17.51.13:589][321]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-17.51.13:590][321]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-17.51.13:590][321]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 382 us (total: 8.147 ms)
+[2025.12.09-17.51.13:590][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-17.51.13:590][321]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.51.13:592][321]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-17.51.13:593][321]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 366 us (total: 5.865 ms)
+[2025.12.09-17.51.13:593][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002689s)
+[2025.12.09-17.51.13:593][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002715s)
+[2025.12.09-17.51.13:615][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.12.09-17.51.13:618][321]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-17.51.13:619][321]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-17.51.13:619][321]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-17.51.13:619][321]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-17.51.13:619][321]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-17.51.13:620][321]LogWorldPartition: Display: WorldPartition initialize took 738 us (total: 66.581 ms)
+[2025.12.09-17.51.13:620][321]LogPlayLevel: PIE: World Init took: (0.002504s)
+[2025.12.09-17.51.13:621][321]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.12.09-17.51.13:621][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-17.51.13:621][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-17.51.13:621][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-17.51.13:621][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-17.51.13:621][321]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-17.51.13:621][321]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-17.51.13:621][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-17.51.13:621][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-17.51.13:621][321]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-17.51.13:621][321]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-17.51.13:621][321]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-17.51.13:623][321]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-17.51.13:736][321]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-17.51.13:736][321]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-17.51.13:736][321]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-17.51.13:736][321]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-17.51.13:737][321]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.12.09-17.51.13:737][321]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.12.09-17.51.13:739][321]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.12.09-17.51.13:739][321]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.12.09-17.51.13:739][321]LogInit: FAudioDevice initialized with ID 19.
+[2025.12.09-17.51.13:739][321]LogAudio: Display: Audio Device (ID: 19) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-17.51.13:739][321]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.12.09-17.51.13:742][321]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-17.51.13:744][321]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-18.51.13
+[2025.12.09-17.51.13:744][321]LogWorld: Bringing up level for play took: 0.000890
+[2025.12.09-17.51.13:746][321]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.12.09-17.51.13:749][321]PIE: Server logged in
+[2025.12.09-17.51.13:751][321]PIE: Play in editor total start time 0,162 seconds.
+[2025.12.09-17.51.13:794][322]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-17.51.18:588][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.51.18:588][605]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.51.18:588][605]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-17.51.18:589][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.51.18:589][605]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-17.51.18:592][605]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-17.51.18:596][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.51.18:614][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.51.18:615][605]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.12.09-17.51.18:615][605]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=4
+[2025.12.09-17.51.18:617][605]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=2
+[2025.12.09-17.51.18:638][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.12.09-17.51.18:669][606]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.12.09-17.51.26:451][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.12.09-17.52.02:428][144]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6394.868652
+[2025.12.09-17.52.02:581][153]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-17.52.02:581][153]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6395.003906, Update Interval: 322.423767
+[2025.12.09-17.53.24:559][968]LogPhysics: Warning: Scale for /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2025.12.09-17.53.24:561][968]LogPhysics: Warning: Scale for /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2025.12.09-17.53.24:563][968]LogPhysics: Warning: Scale for /Engine/Transient.World_7:PersistentLevel.BP_Coin_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2025.12.09-17.53.24:563][968]LogPhysics: Warning: Scale for /Engine/Transient.World_7:PersistentLevel.BP_Coin_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2025.12.09-17.54.35:267][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.12.09-17.54.35:283][137]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/J0/9T8HTRHZE9ZKK3V8DIUATE_Auto4
+[2025.12.09-17.54.35:283][137]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/9T8HTRHZE9ZKK3V8DIUATE_Auto4289FCFD6481466A6DBC1BBA164B2DE4A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/J0/9T8HTRHZE9ZKK3V8DIUATE_Auto4.uasset'
+[2025.12.09-17.54.35:285][137]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.044
+[2025.12.09-17.54.35:285][137]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.044
+[2025.12.09-17.54.35:285][137]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP/BP_Coin] ([2] browsable assets)...
+[2025.12.09-17.54.35:295][137]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_Coin.BP_Coin]
+[2025.12.09-17.54.35:295][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Coin]
+[2025.12.09-17.54.35:307][137]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/BP_Coin_Auto4
+[2025.12.09-17.54.35:307][137]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/BP_Coin_Auto49AE63A124005F3AE2E803689A97A9FD5.tmp' to '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/Autosaves/Game/BP/BP_Coin_Auto4.uasset'
+[2025.12.09-17.54.35:308][137]LogFileHelpers: Auto-saving content packages took 0.023
+[2025.12.09-17.55.24:024][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.12.09-17.55.25:175][955]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.09-17.55.25:234][955]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP/BP_Coin] ([2] browsable assets)...
+[2025.12.09-17.55.25:265][955]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_Coin.BP_Coin]
+[2025.12.09-17.55.25:265][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Coin]
+[2025.12.09-17.55.25:265][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Coin" FILE="../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/BP/BP_Coin.uasset" SILENT=true
+[2025.12.09-17.55.25:278][955]LogSavePackage: Moving output files for package: /Game/BP/BP_Coin
+[2025.12.09-17.55.25:279][955]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/BP_Coin5C0FBAF64497ACCE0CE3D1AD5D115A5B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/BP/BP_Coin.uasset'
+[2025.12.09-17.55.25:290][955]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.145 ms (total: 1.97 sec)
+[2025.12.09-17.55.25:350][955]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.09-17.55.25:350][955]LogContentValidation: Enabled validators:
+[2025.12.09-17.55.25:350][955]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.09-17.55.25:350][955]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.09-17.55.25:350][955]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.09-17.55.25:350][955]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.09-17.55.25:350][955]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.09-17.55.25:350][955]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.09-17.55.25:350][955]AssetCheck: /Game/BP/BP_Coin Validating asset
+[2025.12.09-17.55.27:701][ 94]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-17.55.27:706][ 94]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-17.55.27:706][ 94]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-17.55.27:707][ 94]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 525 us (total: 8.673 ms)
+[2025.12.09-17.55.27:707][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-17.55.27:707][ 94]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.55.27:710][ 94]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-17.55.27:710][ 94]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 376 us (total: 6.241 ms)
+[2025.12.09-17.55.27:710][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002963s)
+[2025.12.09-17.55.27:710][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002993s)
+[2025.12.09-17.55.27:731][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.12.09-17.55.27:734][ 94]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-17.55.27:735][ 94]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-17.55.27:736][ 94]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-17.55.27:736][ 94]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-17.55.27:736][ 94]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-17.55.27:736][ 94]LogWorldPartition: Display: WorldPartition initialize took 774 us (total: 67.355 ms)
+[2025.12.09-17.55.27:736][ 94]LogPlayLevel: PIE: World Init took: (0.002761s)
+[2025.12.09-17.55.27:737][ 94]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.12.09-17.55.27:737][ 94]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-17.55.27:737][ 94]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-17.55.27:737][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-17.55.27:737][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-17.55.27:737][ 94]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-17.55.27:737][ 94]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-17.55.27:737][ 94]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-17.55.27:737][ 94]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-17.55.27:737][ 94]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-17.55.27:737][ 94]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-17.55.27:737][ 94]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-17.55.27:740][ 94]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-17.55.27:839][ 94]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-17.55.27:839][ 94]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-17.55.27:839][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-17.55.27:839][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-17.55.27:839][ 94]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.12.09-17.55.27:839][ 94]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.12.09-17.55.27:842][ 94]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.12.09-17.55.27:842][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.12.09-17.55.27:842][ 94]LogInit: FAudioDevice initialized with ID 20.
+[2025.12.09-17.55.27:842][ 94]LogAudio: Display: Audio Device (ID: 20) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-17.55.27:842][ 94]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.12.09-17.55.27:845][ 94]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-17.55.27:846][ 94]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-18.55.27
+[2025.12.09-17.55.27:846][ 94]LogWorld: Bringing up level for play took: 0.000781
+[2025.12.09-17.55.27:848][ 94]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.12.09-17.55.27:853][ 94]PIE: Server logged in
+[2025.12.09-17.55.27:854][ 94]PIE: Play in editor total start time 0,149 seconds.
+[2025.12.09-17.55.27:905][ 95]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-17.55.30:253][234]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:253][234]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:268][235]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:269][235]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:284][236]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:284][236]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:302][237]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:302][237]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:318][238]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:318][238]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:334][239]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:334][239]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:352][240]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:352][240]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:369][241]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:369][241]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:385][242]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:385][242]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:401][243]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:401][243]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:418][244]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:418][244]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:435][245]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:435][245]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:452][246]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:452][246]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:468][247]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:468][247]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:485][248]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:485][248]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:501][249]LogScript: Warning: Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)
+	BP_Coin_C /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Coin_C_UAID_CC28AA4A81E102AA02_1125831368
+	Function /Game/BP/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:003F
+[2025.12.09-17.55.30:501][249]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:518][250]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:534][251]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:551][252]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:568][253]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:584][254]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:601][255]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:618][256]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:635][257]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:651][258]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:668][259]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:684][260]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:702][261]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:718][262]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:734][263]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:751][264]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:768][265]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:785][266]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:802][267]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:817][268]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:834][269]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:851][270]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:868][271]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:885][272]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:901][273]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:918][274]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:934][275]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:951][276]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:968][277]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.30:985][278]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:001][279]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:018][280]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:034][281]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:051][282]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:068][283]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:085][284]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:101][285]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:118][286]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:134][287]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:151][288]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:168][289]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:185][290]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Destroy Component Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:185][290]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:201][291]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:218][292]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:235][293]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:251][294]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:268][295]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:285][296]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:301][297]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:319][298]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:335][299]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:351][300]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:368][301]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:385][302]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:402][303]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:418][304]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:434][305]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:452][306]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:469][307]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:485][308]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:502][309]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:518][310]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:535][311]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:552][312]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:568][313]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:585][314]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:601][315]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:618][316]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:635][317]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:652][318]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:668][319]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:685][320]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:702][321]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:719][322]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:735][323]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:751][324]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:768][325]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:785][326]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:801][327]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:818][328]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:834][329]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:851][330]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:868][331]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:884][332]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:902][333]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:918][334]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:935][335]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:951][336]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:968][337]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-17.55.31:998][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.55.31:998][337]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.55.31:998][337]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-17.55.31:998][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.55.31:998][337]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-17.55.32:002][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-17.55.32:004][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.55.32:023][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.55.32:023][337]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.12.09-17.55.32:024][337]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=4
+[2025.12.09-17.55.32:026][337]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
+[2025.12.09-17.55.32:032][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.12.09-17.55.32:163][338]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.12.09-17.55.40:077][805]LogSlate: Window 'Message Log' being destroyed
+[2025.12.09-17.55.40:086][805]LogSlate: Window 'Message Log' being destroyed
+[2025.12.09-17.56.42:530][427]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.09-17.56.42:597][427]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP/BP_Coin] ([2] browsable assets)...
+[2025.12.09-17.56.42:628][427]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_Coin.BP_Coin]
+[2025.12.09-17.56.42:628][427]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Coin]
+[2025.12.09-17.56.42:628][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Coin" FILE="../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/BP/BP_Coin.uasset" SILENT=true
+[2025.12.09-17.56.42:640][427]LogSavePackage: Moving output files for package: /Game/BP/BP_Coin
+[2025.12.09-17.56.42:641][427]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/BP_Coin732B4F7340D358CA59E98BB5AEC0D9E6.tmp' to '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/BP/BP_Coin.uasset'
+[2025.12.09-17.56.42:655][427]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.782 ms (total: 2.10 sec)
+[2025.12.09-17.56.42:720][427]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.09-17.56.42:720][427]LogContentValidation: Enabled validators:
+[2025.12.09-17.56.42:720][427]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.09-17.56.42:720][427]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.09-17.56.42:720][427]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.09-17.56.42:720][427]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.09-17.56.42:720][427]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.09-17.56.42:720][427]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.09-17.56.42:720][427]AssetCheck: /Game/BP/BP_Coin Validating asset
+[2025.12.09-17.56.43:183][454]LogBlueprint: Error: [AssetLog] C:\Users\usuario\Documents\GitHub\PrototipaoProyecto\PrototipaoProyecto\Content\BP\BP_Coin.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_Coin  to imply a specific type.
+[2025.12.09-17.56.43:183][454]LogBlueprint: Error: [AssetLog] C:\Users\usuario\Documents\GitHub\PrototipaoProyecto\PrototipaoProyecto\Content\BP\BP_Coin.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2025.12.09-17.56.43:224][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.12.09-17.57.01:102][516]LogBlueprint: Warning: [AssetLog] C:\Users\usuario\Documents\GitHub\PrototipaoProyecto\PrototipaoProyecto\Content\BP\BP_Coin.uasset: [Compiler] 'BP Coin' does not inherit from 'Primitive Component' ( Cast To BP_Coin  would always fail).
+[2025.12.09-17.57.01:147][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.12.09-17.57.08:166][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.12.09-17.57.11:407][105]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-17.57.11:412][105]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-17.57.11:412][105]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-17.57.11:413][105]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 474 us (total: 9.147 ms)
+[2025.12.09-17.57.11:413][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-17.57.11:413][105]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.57.11:416][105]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-17.57.11:416][105]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 375 us (total: 6.617 ms)
+[2025.12.09-17.57.11:416][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002535s)
+[2025.12.09-17.57.11:416][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002559s)
+[2025.12.09-17.57.11:437][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.12.09-17.57.11:439][105]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-17.57.11:441][105]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-17.57.11:441][105]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-17.57.11:441][105]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-17.57.11:441][105]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-17.57.11:441][105]LogWorldPartition: Display: WorldPartition initialize took 804 us (total: 68.160 ms)
+[2025.12.09-17.57.11:441][105]LogPlayLevel: PIE: World Init took: (0.002679s)
+[2025.12.09-17.57.11:443][105]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.12.09-17.57.11:443][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-17.57.11:443][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-17.57.11:443][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-17.57.11:443][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-17.57.11:443][105]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-17.57.11:443][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-17.57.11:443][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-17.57.11:443][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-17.57.11:443][105]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-17.57.11:443][105]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-17.57.11:443][105]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-17.57.11:446][105]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-17.57.11:542][105]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-17.57.11:542][105]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-17.57.11:542][105]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-17.57.11:542][105]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-17.57.11:542][105]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.12.09-17.57.11:542][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.12.09-17.57.11:545][105]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.12.09-17.57.11:545][105]LogInit: FAudioDevice initialized with ID 21.
+[2025.12.09-17.57.11:545][105]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.12.09-17.57.11:545][105]LogAudio: Display: Audio Device (ID: 21) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-17.57.11:545][105]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.12.09-17.57.11:548][105]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-17.57.11:548][105]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-18.57.11
+[2025.12.09-17.57.11:549][105]LogWorld: Bringing up level for play took: 0.000789
+[2025.12.09-17.57.11:550][105]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.12.09-17.57.11:555][105]PIE: Server logged in
+[2025.12.09-17.57.11:557][105]PIE: Play in editor total start time 0,145 seconds.
+[2025.12.09-17.57.11:603][106]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-17.57.14:488][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.57.14:488][275]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.57.14:488][275]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-17.57.14:489][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.57.14:489][275]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-17.57.14:492][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-17.57.14:494][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.57.14:515][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.57.14:515][275]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.12.09-17.57.14:515][275]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=4
+[2025.12.09-17.57.14:517][275]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=2
+[2025.12.09-17.57.14:523][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.12.09-17.57.14:557][276]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.12.09-17.57.19:882][552]LogEditorTransaction: Undo Create Pin Link
+[2025.12.09-17.57.20:118][557]LogEditorTransaction: Undo Create Pin Link
+[2025.12.09-17.57.20:317][561]LogEditorTransaction: Undo Create Pin Link
+[2025.12.09-17.57.20:487][567]LogEditorTransaction: Undo Create Pin Link
+[2025.12.09-17.57.20:718][579]LogEditorTransaction: Undo Move Node
+[2025.12.09-17.57.21:084][599]LogEditorTransaction: Undo Move Node
+[2025.12.09-17.57.21:489][619]LogEditorTransaction: Undo Move Node
+[2025.12.09-17.57.21:870][640]LogEditorTransaction: Undo Break Pin Links
+[2025.12.09-17.57.22:391][669]LogEditorTransaction: Undo Move Node
+[2025.12.09-17.57.22:855][695]LogEditorTransaction: Undo Add Node
+[2025.12.09-17.57.26:792][929]LogEditorTransaction: Undo Move Node
+[2025.12.09-17.57.27:465][955]LogEditorTransaction: Undo Add Node
+[2025.12.09-17.57.27:857][977]LogEditorTransaction: Undo Delete current selection
+[2025.12.09-17.57.28:778][ 29]LogEditorTransaction: Undo Delete current selection
+[2025.12.09-17.58.18:202][917]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6770.594238
+[2025.12.09-17.58.18:336][925]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-17.58.18:336][926]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6770.710938, Update Interval: 308.131958
+[2025.12.09-17.58.18:764][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.12.09-17.59.00:024][300]LogBlueprint: Error: [AssetLog] C:\Users\usuario\Documents\GitHub\PrototipaoProyecto\PrototipaoProyecto\Content\BP\BP_Coin.uasset: [Compiler] This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2025.12.09-17.59.00:073][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.12.09-17.59.14:994][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.12.09-17.59.17:685][335]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-17.59.17:690][335]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-17.59.17:690][335]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-17.59.17:691][335]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 497 us (total: 9.645 ms)
+[2025.12.09-17.59.17:691][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-17.59.17:691][335]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.59.17:693][335]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-17.59.17:694][335]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 376 us (total: 6.993 ms)
+[2025.12.09-17.59.17:694][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002896s)
+[2025.12.09-17.59.17:694][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002926s)
+[2025.12.09-17.59.17:721][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.12.09-17.59.17:724][335]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-17.59.17:725][335]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-17.59.17:725][335]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-17.59.17:725][335]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-17.59.17:725][335]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-17.59.17:727][335]LogWorldPartition: Display: WorldPartition initialize took 797 us (total: 68.957 ms)
+[2025.12.09-17.59.17:727][335]LogPlayLevel: PIE: World Init took: (0.002699s)
+[2025.12.09-17.59.17:727][335]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.12.09-17.59.17:727][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-17.59.17:727][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-17.59.17:727][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-17.59.17:727][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-17.59.17:727][335]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-17.59.17:727][335]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-17.59.17:727][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-17.59.17:727][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-17.59.17:727][335]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-17.59.17:727][335]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-17.59.17:727][335]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-17.59.17:730][335]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-17.59.17:831][335]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-17.59.17:831][335]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-17.59.17:831][335]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-17.59.17:831][335]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-17.59.17:831][335]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.12.09-17.59.17:831][335]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.12.09-17.59.17:833][335]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.12.09-17.59.17:833][335]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.12.09-17.59.17:833][335]LogInit: FAudioDevice initialized with ID 22.
+[2025.12.09-17.59.17:833][335]LogAudio: Display: Audio Device (ID: 22) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-17.59.17:833][335]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.12.09-17.59.17:837][335]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-17.59.17:838][335]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-18.59.17
+[2025.12.09-17.59.17:838][335]LogWorld: Bringing up level for play took: 0.000879
+[2025.12.09-17.59.17:840][335]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.12.09-17.59.17:844][335]PIE: Server logged in
+[2025.12.09-17.59.17:846][335]PIE: Play in editor total start time 0,156 seconds.
+[2025.12.09-17.59.17:904][336]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-17.59.19:928][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.59.19:928][453]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-17.59.19:928][453]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-17.59.19:929][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.59.19:929][453]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-17.59.19:932][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-17.59.19:936][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-17.59.19:958][453]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.09-17.59.19:958][453]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.12.09-17.59.19:958][453]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2025.12.09-17.59.19:961][453]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2025.12.09-17.59.19:966][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-17.59.19:968][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.12.09-17.59.20:000][454]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.12.09-17.59.53:448][413]LogEditorTransaction: Undo Delete current selection
+[2025.12.09-17.59.53:680][418]LogEditorTransaction: Undo Create Pin Link
+[2025.12.09-17.59.53:901][424]LogEditorTransaction: Undo Create Pin Link
+[2025.12.09-17.59.54:256][441]LogEditorTransaction: Undo Move Node
+[2025.12.09-17.59.54:610][460]LogEditorTransaction: Undo Delete current selection
+[2025.12.09-17.59.54:985][479]LogEditorTransaction: Undo Delete current selection
+[2025.12.09-17.59.55:984][537]LogEditorTransaction: Undo Add Node
+[2025.12.09-17.59.59:525][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.12.09-18.00.08:904][302]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-18.00.08:910][302]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-18.00.08:910][302]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-18.00.08:911][302]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 468 us (total: 10.113 ms)
+[2025.12.09-18.00.08:911][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-18.00.08:911][302]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.00.08:914][302]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-18.00.08:914][302]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 377 us (total: 7.370 ms)
+[2025.12.09-18.00.08:914][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002889s)
+[2025.12.09-18.00.08:914][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002916s)
+[2025.12.09-18.00.08:938][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.12.09-18.00.08:939][302]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-18.00.08:941][302]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-18.00.08:941][302]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-18.00.08:941][302]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-18.00.08:941][302]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-18.00.08:942][302]LogWorldPartition: Display: WorldPartition initialize took 820 us (total: 69.778 ms)
+[2025.12.09-18.00.08:942][302]LogPlayLevel: PIE: World Init took: (0.002606s)
+[2025.12.09-18.00.08:943][302]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.12.09-18.00.08:943][302]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-18.00.08:943][302]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-18.00.08:943][302]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-18.00.08:943][302]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-18.00.08:943][302]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-18.00.08:943][302]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-18.00.08:943][302]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-18.00.08:943][302]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-18.00.08:943][302]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-18.00.08:943][302]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-18.00.08:943][302]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-18.00.08:945][302]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-18.00.09:045][302]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-18.00.09:045][302]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-18.00.09:045][302]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-18.00.09:045][302]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-18.00.09:046][302]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.12.09-18.00.09:046][302]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2025.12.09-18.00.09:048][302]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.12.09-18.00.09:048][302]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.12.09-18.00.09:048][302]LogInit: FAudioDevice initialized with ID 23.
+[2025.12.09-18.00.09:048][302]LogAudio: Display: Audio Device (ID: 23) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-18.00.09:048][302]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.12.09-18.00.09:051][302]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-18.00.09:052][302]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-19.00.09
+[2025.12.09-18.00.09:052][302]LogWorld: Bringing up level for play took: 0.000804
+[2025.12.09-18.00.09:054][302]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.12.09-18.00.09:058][302]PIE: Server logged in
+[2025.12.09-18.00.09:060][302]PIE: Play in editor total start time 0,15 seconds.
+[2025.12.09-18.00.09:101][303]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-18.00.10:262][371]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:279][372]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:296][373]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:312][374]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:329][375]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:345][376]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:361][377]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:378][378]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:395][379]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:411][380]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:428][381]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:445][382]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:462][383]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:479][384]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:496][385]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:512][386]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:529][387]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:546][388]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:562][389]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:578][390]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:595][391]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:612][392]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:629][393]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:645][394]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:661][395]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:679][396]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:696][397]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:712][398]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:728][399]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:745][400]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:762][401]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:779][402]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:795][403]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:812][404]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:828][405]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:845][406]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:861][407]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:879][408]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:895][409]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:911][410]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:927][411]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:945][412]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:961][413]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:977][414]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.10:995][415]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:012][416]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:028][417]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:045][418]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:061][419]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:078][420]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:094][421]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:111][422]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:128][423]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:144][424]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:162][425]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:178][426]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:194][427]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:211][428]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:228][429]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:244][430]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:262][431]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:278][432]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:295][433]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:311][434]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:328][435]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:345][436]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:361][437]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:378][438]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:394][439]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:411][440]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:428][441]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:444][442]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:461][443]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:478][444]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:495][445]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:511][446]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:528][447]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:545][448]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:561][449]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:578][450]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.00.11:632][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.00.11:632][450]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.00.11:632][450]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-18.00.11:632][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.00.11:632][450]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-18.00.11:641][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-18.00.11:641][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.00.11:660][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.00.11:660][450]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.12.09-18.00.11:660][450]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2025.12.09-18.00.11:662][450]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2025.12.09-18.00.11:682][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.12.09-18.00.11:803][451]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.12.09-18.00.14:386][599]LogSlate: Window 'Message Log' being destroyed
+[2025.12.09-18.00.14:394][599]LogSlate: Window 'Message Log' being destroyed
+[2025.12.09-18.01.10:050][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.12.09-18.01.12:199][939]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-18.01.12:203][939]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-18.01.12:203][939]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-18.01.12:204][939]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 471 us (total: 10.585 ms)
+[2025.12.09-18.01.12:204][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-18.01.12:204][939]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.01.12:206][939]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-18.01.12:207][939]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 398 us (total: 7.769 ms)
+[2025.12.09-18.01.12:207][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002870s)
+[2025.12.09-18.01.12:207][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002895s)
+[2025.12.09-18.01.12:231][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.12.09-18.01.12:233][939]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-18.01.12:235][939]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-18.01.12:235][939]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-18.01.12:235][939]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-18.01.12:235][939]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-18.01.12:235][939]LogWorldPartition: Display: WorldPartition initialize took 836 us (total: 70.614 ms)
+[2025.12.09-18.01.12:235][939]LogPlayLevel: PIE: World Init took: (0.002770s)
+[2025.12.09-18.01.12:237][939]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.12.09-18.01.12:237][939]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-18.01.12:237][939]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-18.01.12:237][939]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-18.01.12:237][939]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-18.01.12:237][939]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-18.01.12:237][939]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-18.01.12:237][939]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-18.01.12:237][939]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-18.01.12:237][939]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-18.01.12:237][939]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-18.01.12:237][939]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-18.01.12:239][939]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-18.01.12:342][939]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-18.01.12:342][939]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-18.01.12:342][939]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-18.01.12:342][939]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-18.01.12:342][939]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.12.09-18.01.12:342][939]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.12.09-18.01.12:345][939]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.12.09-18.01.12:345][939]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.12.09-18.01.12:345][939]LogInit: FAudioDevice initialized with ID 24.
+[2025.12.09-18.01.12:345][939]LogAudio: Display: Audio Device (ID: 24) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-18.01.12:345][939]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.12.09-18.01.12:347][939]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-18.01.12:348][939]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-19.01.12
+[2025.12.09-18.01.12:349][939]LogWorld: Bringing up level for play took: 0.000773
+[2025.12.09-18.01.12:351][939]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.12.09-18.01.12:355][939]PIE: Server logged in
+[2025.12.09-18.01.12:357][939]PIE: Play in editor total start time 0,154 seconds.
+[2025.12.09-18.01.12:398][940]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-18.01.14:242][ 48]PIE: Error: Blueprint Runtime Error: "Attempted to access DefaultSceneRoot via property DefaultSceneRoot, but DefaultSceneRoot is not valid (pending kill or garbage)". Node:  Destroy Component Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.01.15:308][112]PIE: Error: Blueprint Runtime Error: "Attempted to access DefaultSceneRoot via property DefaultSceneRoot, but DefaultSceneRoot is not valid (pending kill or garbage)". Node:  Destroy Component Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.01.16:208][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.01.16:208][164]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.01.16:209][164]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-18.01.16:209][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.01.16:209][164]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-18.01.16:212][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-18.01.16:215][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.01.16:234][164]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.09-18.01.16:234][164]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.12.09-18.01.16:234][164]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2025.12.09-18.01.16:237][164]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2025.12.09-18.01.16:255][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.01.16:259][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.12.09-18.01.16:364][165]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.12.09-18.01.22:902][549]LogSlate: Window 'Message Log' being destroyed
+[2025.12.09-18.01.22:911][549]LogSlate: Window 'Message Log' being destroyed
+[2025.12.09-18.01.28:210][826]LogEditorTransaction: Undo Move Node
+[2025.12.09-18.01.28:481][833]LogEditorTransaction: Undo Move Node
+[2025.12.09-18.01.28:857][848]LogEditorTransaction: Undo Create Pin Link
+[2025.12.09-18.01.29:208][867]LogEditorTransaction: Undo Move Nodes
+[2025.12.09-18.01.29:591][888]LogEditorTransaction: Undo Add Node
+[2025.12.09-18.01.30:012][911]LogEditorTransaction: Undo Delete current selection
+[2025.12.09-18.01.30:490][935]LogEditorTransaction: Undo Delete current selection
+[2025.12.09-18.02.24:144][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.12.09-18.02.25:453][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.09-18.02.25:518][174]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP/BP_Coin] ([2] browsable assets)...
+[2025.12.09-18.02.25:527][174]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_Coin.BP_Coin]
+[2025.12.09-18.02.25:527][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Coin]
+[2025.12.09-18.02.25:527][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Coin" FILE="../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/BP/BP_Coin.uasset" SILENT=true
+[2025.12.09-18.02.25:540][174]LogSavePackage: Moving output files for package: /Game/BP/BP_Coin
+[2025.12.09-18.02.25:542][174]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/BP_CoinB98ADCA44769D072921ED093E2FCF725.tmp' to '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/BP/BP_Coin.uasset'
+[2025.12.09-18.02.25:564][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 110.678 ms (total: 2.21 sec)
+[2025.12.09-18.02.25:628][174]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.09-18.02.25:628][174]LogContentValidation: Enabled validators:
+[2025.12.09-18.02.25:628][174]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.09-18.02.25:628][174]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.09-18.02.25:628][174]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.09-18.02.25:628][174]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.09-18.02.25:628][174]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.09-18.02.25:628][174]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.09-18.02.25:629][174]AssetCheck: /Game/BP/BP_Coin Validating asset
+[2025.12.09-18.02.29:264][389]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-18.02.29:270][389]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-18.02.29:270][389]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-18.02.29:270][389]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 475 us (total: 11.060 ms)
+[2025.12.09-18.02.29:270][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-18.02.29:270][389]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.02.29:273][389]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-18.02.29:273][389]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 378 us (total: 8.147 ms)
+[2025.12.09-18.02.29:273][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002730s)
+[2025.12.09-18.02.29:273][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002757s)
+[2025.12.09-18.02.29:295][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.12.09-18.02.29:299][389]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-18.02.29:301][389]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-18.02.29:301][389]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-18.02.29:301][389]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-18.02.29:301][389]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-18.02.29:302][389]LogWorldPartition: Display: WorldPartition initialize took 835 us (total: 71.450 ms)
+[2025.12.09-18.02.29:302][389]LogPlayLevel: PIE: World Init took: (0.002806s)
+[2025.12.09-18.02.29:303][389]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.12.09-18.02.29:303][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-18.02.29:303][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-18.02.29:303][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-18.02.29:303][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-18.02.29:303][389]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-18.02.29:303][389]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-18.02.29:303][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-18.02.29:303][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-18.02.29:303][389]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-18.02.29:303][389]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-18.02.29:303][389]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-18.02.29:305][389]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-18.02.29:406][389]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-18.02.29:406][389]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-18.02.29:406][389]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-18.02.29:406][389]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-18.02.29:407][389]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.12.09-18.02.29:407][389]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2025.12.09-18.02.29:409][389]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.12.09-18.02.29:409][389]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2025.12.09-18.02.29:409][389]LogInit: FAudioDevice initialized with ID 25.
+[2025.12.09-18.02.29:409][389]LogAudio: Display: Audio Device (ID: 25) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-18.02.29:409][389]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.12.09-18.02.29:412][389]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-18.02.29:413][389]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-19.02.29
+[2025.12.09-18.02.29:414][389]LogWorld: Bringing up level for play took: 0.000778
+[2025.12.09-18.02.29:415][389]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.12.09-18.02.29:419][389]PIE: Server logged in
+[2025.12.09-18.02.29:421][389]PIE: Play in editor total start time 0,152 seconds.
+[2025.12.09-18.02.29:462][390]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-18.02.30:910][475]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.30:926][476]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.30:943][477]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.30:960][478]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.30:977][479]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.30:993][480]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:010][481]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:027][482]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:043][483]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:060][484]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:077][485]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:093][486]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:110][487]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:127][488]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:143][489]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:160][490]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:177][491]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:194][492]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:210][493]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:227][494]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:243][495]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:260][496]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:277][497]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:294][498]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:310][499]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:327][500]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:344][501]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:360][502]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:378][503]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:394][504]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:410][505]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:427][506]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:443][507]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:461][508]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:477][509]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:493][510]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:509][511]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:527][512]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:543][513]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:560][514]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:576][515]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:593][516]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:610][517]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:626][518]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:643][519]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:660][520]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:676][521]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:694][522]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:709][523]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:726][524]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:743][525]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:760][526]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:777][527]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:793][528]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:810][529]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:827][530]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:844][531]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:860][532]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:877][533]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:893][534]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:910][535]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:927][536]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:944][537]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:961][538]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:977][539]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.31:993][540]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:010][541]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:027][542]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:043][543]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:060][544]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:077][545]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:094][546]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:110][547]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:127][548]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:143][549]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:160][550]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:177][551]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:193][552]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:211][553]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:227][554]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:244][555]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:260][556]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:277][557]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:294][558]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:310][559]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:327][560]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:344][561]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:360][562]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:377][563]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:393][564]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:410][565]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:427][566]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:443][567]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:460][568]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:477][569]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:494][570]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:510][571]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:527][572]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:543][573]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:560][574]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:577][575]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:593][576]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:610][577]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:627][578]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:643][579]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:660][580]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:677][581]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:693][582]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:710][583]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:727][584]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:743][585]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:760][586]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:777][587]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:794][588]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:810][589]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:827][590]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:843][591]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:859][592]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:877][593]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:893][594]PIE: Error: Blueprint Runtime Error: "Attempted to access CoinMesh via property CoinMesh, but CoinMesh is not valid (pending kill or garbage)". Node:  Add Local Rotation Graph:  EventGraph Function:  Execute Ubergraph BP Coin Blueprint:  BP_Coin
+[2025.12.09-18.02.32:928][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.02.32:928][594]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.02.32:928][594]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-18.02.32:928][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.02.32:928][594]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-18.02.32:931][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-18.02.32:934][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.02.32:954][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.02.32:954][594]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.12.09-18.02.32:954][594]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2025.12.09-18.02.32:957][594]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2025.12.09-18.02.32:977][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.12.09-18.02.33:178][595]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.12.09-18.02.34:986][696]LogSlate: Window 'Message Log' being destroyed
+[2025.12.09-18.02.34:995][696]LogSlate: Window 'Message Log' being destroyed
+[2025.12.09-18.04.11:009][ 22]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7123.415527
+[2025.12.09-18.04.12:010][ 25]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-18.04.12:011][ 25]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7124.082520, Update Interval: 353.563660
+[2025.12.09-18.04.55:453][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.12.09-18.04.55:465][154]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/J0/9T8HTRHZE9ZKK3V8DIUATE_Auto5
+[2025.12.09-18.04.55:465][154]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/9T8HTRHZE9ZKK3V8DIUATE_Auto5618045574CB42809E11043B9E49F6930.tmp' to '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/J0/9T8HTRHZE9ZKK3V8DIUATE_Auto5.uasset'
+[2025.12.09-18.04.55:467][154]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.036
+[2025.12.09-18.04.55:467][154]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2025.12.09-18.05.37:171][ 80]LogDerivedDataCache: C:/Users/usuario/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.09-18.05.39:064][193]LogBlueprint: Error: [AssetLog] C:\Users\usuario\Documents\GitHub\PrototipaoProyecto\PrototipaoProyecto\Content\BP\BP_Coin.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_ThirdPersonCharacter  to imply a specific type.
+[2025.12.09-18.05.39:064][193]LogBlueprint: Error: [AssetLog] C:\Users\usuario\Documents\GitHub\PrototipaoProyecto\PrototipaoProyecto\Content\BP\BP_Coin.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2025.12.09-18.05.39:102][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.12.09-18.06.07:985][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.12.09-18.06.11:776][754]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-18.06.11:780][754]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-18.06.11:780][754]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-18.06.11:781][754]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 469 us (total: 11.529 ms)
+[2025.12.09-18.06.11:781][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-18.06.11:781][754]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.06.11:783][754]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-18.06.11:783][754]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 344 us (total: 8.491 ms)
+[2025.12.09-18.06.11:783][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002634s)
+[2025.12.09-18.06.11:783][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002662s)
+[2025.12.09-18.06.11:804][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.12.09-18.06.11:806][754]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-18.06.11:807][754]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-18.06.11:807][754]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-18.06.11:807][754]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-18.06.11:807][754]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-18.06.11:808][754]LogWorldPartition: Display: WorldPartition initialize took 674 us (total: 72.124 ms)
+[2025.12.09-18.06.11:808][754]LogPlayLevel: PIE: World Init took: (0.002516s)
+[2025.12.09-18.06.11:809][754]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2025.12.09-18.06.11:809][754]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-18.06.11:809][754]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-18.06.11:809][754]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-18.06.11:809][754]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-18.06.11:809][754]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-18.06.11:809][754]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-18.06.11:809][754]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-18.06.11:809][754]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-18.06.11:809][754]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-18.06.11:809][754]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-18.06.11:809][754]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-18.06.11:811][754]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-18.06.11:912][754]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-18.06.11:912][754]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-18.06.11:912][754]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-18.06.11:912][754]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-18.06.11:914][754]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2025.12.09-18.06.11:914][754]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2025.12.09-18.06.11:915][754]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2025.12.09-18.06.11:915][754]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2025.12.09-18.06.11:915][754]LogInit: FAudioDevice initialized with ID 26.
+[2025.12.09-18.06.11:915][754]LogAudio: Display: Audio Device (ID: 26) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-18.06.11:915][754]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2025.12.09-18.06.11:919][754]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-18.06.11:920][754]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-19.06.11
+[2025.12.09-18.06.11:920][754]LogWorld: Bringing up level for play took: 0.000831
+[2025.12.09-18.06.11:922][754]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.12.09-18.06.11:925][754]PIE: Server logged in
+[2025.12.09-18.06.11:928][754]PIE: Play in editor total start time 0,148 seconds.
+[2025.12.09-18.06.11:978][755]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-18.06.16:268][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.06.16:268][  8]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.06.16:268][  8]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-18.06.16:268][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.06.16:268][  8]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-18.06.16:272][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-18.06.16:274][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.06.16:292][  8]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.09-18.06.16:292][  8]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2025.12.09-18.06.16:292][  8]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=4
+[2025.12.09-18.06.16:295][  8]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=2
+[2025.12.09-18.06.16:299][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.06.16:301][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.12.09-18.06.16:327][  9]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.12.09-18.07.44:621][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.12.09-18.07.45:719][302]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.09-18.07.45:774][302]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP/BP_Coin] ([2] browsable assets)...
+[2025.12.09-18.07.45:809][302]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_Coin.BP_Coin]
+[2025.12.09-18.07.45:810][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Coin]
+[2025.12.09-18.07.45:810][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Coin" FILE="../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/BP/BP_Coin.uasset" SILENT=true
+[2025.12.09-18.07.45:822][302]LogSavePackage: Moving output files for package: /Game/BP/BP_Coin
+[2025.12.09-18.07.45:823][302]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/BP_Coin3762106B499E06DECE7FDE8E5363C1F6.tmp' to '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/BP/BP_Coin.uasset'
+[2025.12.09-18.07.45:838][302]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.932 ms (total: 2.32 sec)
+[2025.12.09-18.07.45:901][302]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.09-18.07.45:901][302]LogContentValidation: Enabled validators:
+[2025.12.09-18.07.45:901][302]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.09-18.07.45:901][302]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.09-18.07.45:901][302]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.09-18.07.45:901][302]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.09-18.07.45:901][302]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.09-18.07.45:901][302]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.09-18.07.45:902][302]AssetCheck: /Game/BP/BP_Coin Validating asset
+[2025.12.09-18.08.05:979][503]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-18.08.05:985][503]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.09-18.08.05:985][503]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.09-18.08.05:985][503]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 543 us (total: 12.073 ms)
+[2025.12.09-18.08.05:985][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-18.08.05:985][503]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.08.05:988][503]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.09-18.08.05:988][503]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 392 us (total: 8.884 ms)
+[2025.12.09-18.08.05:988][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002878s)
+[2025.12.09-18.08.05:988][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.002904s)
+[2025.12.09-18.08.06:015][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.12.09-18.08.06:018][503]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.09-18.08.06:020][503]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.09-18.08.06:020][503]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.09-18.08.06:020][503]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.09-18.08.06:020][503]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.09-18.08.06:021][503]LogWorldPartition: Display: WorldPartition initialize took 767 us (total: 72.891 ms)
+[2025.12.09-18.08.06:021][503]LogPlayLevel: PIE: World Init took: (0.002533s)
+[2025.12.09-18.08.06:021][503]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2025.12.09-18.08.06:021][503]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-18.08.06:022][503]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-18.08.06:022][503]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-18.08.06:022][503]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-18.08.06:022][503]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-18.08.06:022][503]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-18.08.06:022][503]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-18.08.06:022][503]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-18.08.06:022][503]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-18.08.06:022][503]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-18.08.06:022][503]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-18.08.06:024][503]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-18.08.06:117][503]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.12.09-18.08.06:118][503]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-18.08.06:118][503]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-18.08.06:118][503]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-18.08.06:118][503]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2025.12.09-18.08.06:119][503]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2025.12.09-18.08.06:121][503]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2025.12.09-18.08.06:121][503]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2025.12.09-18.08.06:121][503]LogInit: FAudioDevice initialized with ID 27.
+[2025.12.09-18.08.06:121][503]LogAudio: Display: Audio Device (ID: 27) registered with world 'Lvl_ThirdPerson'.
+[2025.12.09-18.08.06:121][503]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2025.12.09-18.08.06:127][503]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.09-18.08.06:127][503]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.12.09-19.08.06
+[2025.12.09-18.08.06:128][503]LogWorld: Bringing up level for play took: 0.000847
+[2025.12.09-18.08.06:129][503]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.12.09-18.08.06:133][503]PIE: Server logged in
+[2025.12.09-18.08.06:135][503]PIE: Play in editor total start time 0,151 seconds.
+[2025.12.09-18.08.06:182][504]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-18.08.16:918][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.08.16:919][145]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.09-18.08.16:919][145]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-18.08.16:919][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.08.16:919][145]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.09-18.08.16:923][145]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-18.08.16:926][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-18.08.16:947][145]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.09-18.08.16:947][145]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2025.12.09-18.08.16:947][145]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=4
+[2025.12.09-18.08.16:949][145]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=2
+[2025.12.09-18.08.16:953][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-18.08.16:955][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.12.09-18.08.17:005][146]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2025.12.09-18.08.21:656][413]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.09-18.08.21:797][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.12.09-18.08.21:823][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.12.09-18.08.21:849][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.12.09-18.08.21:862][413]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/0J/3CG3CSKCLBL3BJLZVQIPP1
+[2025.12.09-18.08.21:864][413]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/3CG3CSKCLBL3BJLZVQIPP1B7A03D344E80FA27087189ACFB57D3BF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/0J/3CG3CSKCLBL3BJLZVQIPP1.uasset'
+[2025.12.09-18.08.21:875][413]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/J0/9T8HTRHZE9ZKK3V8DIUATE
+[2025.12.09-18.08.21:877][413]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Saved/9T8HTRHZE9ZKK3V8DIUATE6CEA1E92440ABF2A23A44D8E9CF70B4A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/PrototipaoProyecto/PrototipaoProyecto/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/J0/9T8HTRHZE9ZKK3V8DIUATE.uasset'
+[2025.12.09-18.08.21:891][413]LogFileHelpers: InternalPromptForCheckoutAndSave took 234.817 ms (total: 2.56 sec)
+[2025.12.09-18.08.21:953][413]LogContentValidation: Display: Starting to validate 3 assets
+[2025.12.09-18.08.21:953][413]LogContentValidation: Enabled validators:
+[2025.12.09-18.08.21:953][413]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.09-18.08.21:953][413]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.09-18.08.21:953][413]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.09-18.08.21:953][413]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.09-18.08.21:953][413]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.09-18.08.21:953][413]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.09-18.08.21:953][413]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
